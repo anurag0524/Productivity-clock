@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+            background-color: #f4f4f4;
+            max-width: 400px;
+            margin: auto;
+            border-radius: 90%;
+        }
+        h3 {
+            text-align: center;
+            color: #333;
+            margin-top: 0;
+        }
+        .container {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input {
+            width: 100px;
+            padding: 17px;
+            border: 2px solid #ddd;
+            border-radius: 19px;
+            margin-bottom: 21px;
+            font-size: 14px;
+            box-sizing: border-box; /* Ensures padding and border are included in the width */
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        p {
+            text-align: center;
+            color: #d9534f;
+            font-size: 14px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Set Timer Duration</h3>
+        <input type="number" id="minutesInput" placeholder="Enter minutes" />
+        <button id="setTimerBtn">Set Timer</button>
+        <p id="message"></p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -10,6 +10,7 @@
     "128": "images/clock-3-128.png"
   },
   "action": {
+    "default_popup": "popup.html",
     "default_icon": {
       "16": "images/clock-3-16.png",
       "32": "images/clock-3-32.png",
@@ -17,7 +18,12 @@
       "128": "images/clock-3-128.png"
     }
   },
-  "permissions": ["storage","contextMenus","alarms","notifications"],
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "alarms",
+    "notifications"
+  ],
   "background": {
     "service_worker": "service_worker.js"
   }
