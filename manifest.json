@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Productivity Clock",
+  "description": "Helps you stay focused and efficient by timing work sessions with regular breaks.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "images/clock-3-16.png",
+    "32": "images/clock-3-32.png",
+    "48": "images/clock-3-48.png",
+    "128": "images/clock-3-128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/clock-3-16.png",
+      "32": "images/clock-3-32.png",
+      "48": "images/clock-3-48.png",
+      "128": "images/clock-3-128.png"
+    }
+  },
+  "permissions": ["storage","contextMenus","alarms"],
+  "background": {
+    "service_worker": "service_worker.js"
+  }
+}
