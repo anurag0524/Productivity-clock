@@ -17,7 +17,7 @@
       "128": "images/clock-3-128.png"
     }
   },
-  "permissions": ["storage","contextMenus","alarms"],
+  "permissions": ["storage","contextMenus","alarms","notifications"],
   "background": {
     "service_worker": "service_worker.js"
   }
